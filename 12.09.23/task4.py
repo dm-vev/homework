@@ -9,7 +9,7 @@ def get_month() -> int:
         except ValueError:
             print('Введено неверное значение')
             
-def get_season(month: int):
+def get_season(month: int) -> None:
     if 3 <= month <= 5:
         print('Весна')
     elif 6 <= month <= 8:
